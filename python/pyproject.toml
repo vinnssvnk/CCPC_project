@@ -1,0 +1,9 @@
+[project]
+name = "anonymizer"
+version = "1.0.0"
+description = "Fast, stdlib-only anonymization of user records"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+include = ["anonymizer*"]
